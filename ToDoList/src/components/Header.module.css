@@ -1,0 +1,23 @@
+.headerBackground {
+    height: 12.5rem;
+    background-color: black;
+    font-size: 3rem;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imageSize{
+    height: 3rem;
+    margin-right: 1rem;
+    
+  }
+
+  .TitleTo { 
+    color: var(--blue);
+  }
+
+  .TitleDo {
+    color: var(--purple-dark);
+  }
