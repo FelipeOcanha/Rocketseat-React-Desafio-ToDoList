@@ -1,35 +1,37 @@
 .container {
     display: flex;
-    margin-top: 1rem;
     flex: 1;
   
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 0.5rem;
-}
-
-.container aside {
+  }
+  
+  .container aside {
     display: flex;
     align-items: center;
     gap: 0.5rem;
+  
     font-weight: bold;
-}
-
-.blueMark {
+  }
+  
+  .container aside:first-child {
     color: var(--blue);
-}
-
-.purpleMark {
+  }
+  
+  .container aside:last-child {
     color: var(--purple);
-}
-
-.taskCount {
-    display: flex;
+  }
+  
+  .container aside p {
+    font-size: 0.875rem;
+  }
+  
+  .container aside span {
+    padding: 2px 8px;
+    border-radius: 16px;
+  
+    font-size: 0.75rem;
+  
     color: var(--gray-200);
     background-color: var(--gray-400);
-    width: 1.5rem;
-    border-radius: 10px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+  }
